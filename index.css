@@ -137,13 +137,16 @@ h4,b{
     }
 }
 @media (max-width:680px){
+    body{
+        width: 100%;
+    }
     .navbar-item{
         position: absolute;
         top: 70px;
-        left: 280px;
+        left: 272px;
         background-color: #fff;
         color: black;
-        width: 100%;
+        width: 100px;
         overflow: hidden;
         transition: max-height 0.5;
     }

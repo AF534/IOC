@@ -1,0 +1,269 @@
+body{
+    height: 100%;
+    width: auto;
+}
+.Club-name{
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 600;
+}
+#navbar{
+    position:sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+  text-decoration: none;
+
+}
+.navbar-item{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.item{
+    padding: 8px;
+    font-size: 17px;
+    color: black;
+    text-decoration:none;
+
+}
+.menu-icon{
+    width: 28px;
+    display: none;
+}
+/* nav.bg{
+    background: #ffffffb8; */
+
+/* 
+.w-100{
+    width: 100%!important;
+} */
+.item:hover{
+ 
+}
+#Poster{
+    /* padding-top: 80px; */
+    /* overflow: hidden; */
+  
+}
+
+#about{
+  
+    display: flex;
+     justify-content: center; 
+     /* flex-direction: column;  */
+    flex-direction: unset;
+    margin-top: 0px !important;
+    margin-left: 0px;
+    flex-wrap: wrap;
+}
+h4,b{
+    font-size: 30px;
+    font-weight:bolder;
+    font-style: normal;
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.about-left{
+    padding-top: 30px;
+    width: 50%;
+    margin-left: 40px ;
+    /* display: flex; */
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.about-right{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button{
+    position: static;
+    background-color: #ffbf12 !important;
+    border-bottom: 4px solid #fff !important;
+    color: #020404 !important;
+    font-weight: 700;
+    padding: 15px !important;
+    border-radius: 30px !important;
+    font-size: 18px !important;
+    font-weight: 600;
+
+}
+/* @media (max-width:710px){
+    .item{
+         font-size: 15px;
+         padding: 4px;
+    }
+    .Club-name{
+         font-size: 15px;
+         padding: 4px;
+ 
+        }
+        .video{
+            width: 100%;
+            height: 100%;
+        }   */
+@media (max-width:400px){
+    .item{
+         font-size: 8px;
+         padding: 0px;
+    }
+    .Club-name{
+         font-size: 20px;
+         padding: 0px;
+
+    }
+    iframe{
+        width: 100%;
+        height: 300px;
+    }
+    b{
+        font-size:20px ;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    .about-left{
+        padding-left: 4px;
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+@media (max-width:680px){
+    .navbar-item{
+        position: absolute;
+        top: 70px;
+        left: 280px;
+        background-color: #fff;
+        color: black;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5;
+    }
+    .navbar-item .item {
+        display: block;
+        margin-right:50px ;
+        margin-top:10px ;
+        margin-bottom: 10px;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+    .Club-name{
+        font-size: 20px;
+    }
+}
+@media (max-width:770px){
+    .item{
+         font-size: 16px;
+         padding: 3px;
+    }
+    .Club-name{
+         font-size: 15px;
+         padding: 0px;
+
+    }
+    iframe{
+        padding-top: 1px;
+        width: 100%;
+        height: 340px;
+    }
+    b{
+        font-size:40px ;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    .about-left{
+        padding-left: 4px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .poster{
+        width: 1000px;
+        height: 400px;
+    }
+
+}
+ @media(min-width:900px){
+    /* #about{
+        padding-top: 30px;
+        display: flex;
+         justify-content: center; 
+         flex-direction: column; 
+     
+         margin-top: 10px !important;
+        margin-left: 0px;
+        flex-wrap: wrap;
+    } */
+    .poster{
+        width: 300px;
+        height: 600px;
+        padding-bottom: 100px;
+    }
+} 
+ @media(max-width:899px){
+    /* #about{
+        padding-top: 30px;
+        display: flex;
+         justify-content: center; 
+         flex-direction: column; 
+     
+         margin-top: 10px !important;
+        margin-left: 0px;
+        flex-wrap: wrap;
+    }  */
+    .poster{
+        width: 300px;
+        height: 400px;
+        padding-bottom: 30px;
+    }
+    .Register{
+        font-size: 20px;
+
+
+    }
+} 
+
+@media (max-width:420px){
+    body{
+        height: 800px;
+    }
+    .item{
+         font-size: 10px;
+         padding: 0px;
+    }
+    .Club-name{
+         font-size: 14px;
+         padding: 0px;
+
+    }
+    iframe{
+        width: 100%;
+        height: 280px;
+    }
+    b{
+        font-size:30px ;
+        margin-left: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+     .about-left{
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 100%;
+    } 
+
+
+
+}
+
+
